@@ -8,7 +8,7 @@ Persistent Homology for Wasserstein Auto-Encoders
   <img src="https://github.com/dagrate/PHom-WAE/blob/master/images/vae_barcode.png" width="250"/>
 </p>
 
-*From left to right: persistence diagram of the original sample, persistence diagram of the WAE reconstructed sample, persistence diagram of the VAE reconstructed sample*
+*From left to right. Persistence diagram of (a) the original sample, (b) the WAE reconstructed sample, (c) the VAE reconstructed sample. The red lines represent the H1 homology group while the black lines represent the H0 homology group.*
 
 PHom-WAE is a Python and R library that proposes to evaluate the quality of the encoding-decoding process of Wasserstein auto-encoders in comparison to Variational auto-encoders. For some real-world applications, different than computer vision, we cannot assess visually the quality of the encoding-decoding. Therefore, we have to use other metrics. Here, we rely on persistent homology because it is capable to acknowledge the shape of the data points, by opposition to traditional distance measures such the Euclidean distance.
 
