@@ -3,9 +3,9 @@
 Persistent Homology for Wasserstein Auto-Encoders
 
 <p align="middle">
-  <img src="https://github.com/dagrate/PHom-WAE/blob/master/images/originalSamples_barcode.png" width="100"/>
-  <img src="https://github.com/dagrate/PHom-WAE/blob/master/images/Wae_barcode.png" width="100"/>
-  <img src="https://github.com/dagrate/PHom-WAE/blob/master/images/vae_barcode.png" width="100"/>
+  <img src="https://github.com/dagrate/PHom-WAE/blob/master/images/originalSamples_barcode.png" width="250"/>
+  <img src="https://github.com/dagrate/PHom-WAE/blob/master/images/wae_barcode.png" width="250"/>
+  <img src="https://github.com/dagrate/PHom-WAE/blob/master/images/vae_barcode.png" width="250"/>
 </p>
 
 PHom-WAE is a Python and R library that proposes to evaluate the quality of the encoding-decoding process of Wasserstein auto-encoders in comparison to Variational auto-encoders. For some real-world applications, different than computer vision, we cannot assess visually the quality of the encoding-decoding. Therefore, we have to use other metrics. Here, we rely on persistent homology because it is capable to acknowledge the shape of the data points, by opposition to traditional distance measures such the Euclidean distance.
